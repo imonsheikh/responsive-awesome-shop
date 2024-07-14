@@ -75,7 +75,7 @@ body {
     gap: 10px;
 
 }
-.text_container h1, p, span{
+.text_container h1, span{
   font-size: 45px;  
 }
 .banner_heading{
@@ -99,8 +99,9 @@ body {
     padding: 10px 20px;
     color: white;
     border-radius: 10px;
-    background-color: #e893cf;
-
+    background-color: #373a9a;
+    font-size: 20px;
+    margin: 0 20px;
 }
 
 /*  banner image section */
@@ -148,4 +149,21 @@ body {
 }
 .single_product{
   border: 2px solid blue;
+  width: 30%;
+  text-align: center;
+  padding: 2%;
+
+}
+.single_product img{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  display: flex;
+  
+}
+.heading_icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
